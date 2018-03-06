@@ -1,0 +1,320 @@
+@media screen and (max-width: 1024px){
+    .banner_pub {
+        width: 100%;
+        height: 410px !important;
+        background: url(../images/bg_pub_medium.png) top center no-repeat !important;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+    }
+}
+@media screen and (max-width: 768px){
+    .network_hader ul li a i {
+        width: 40px !important;
+    }
+    .upload_memory a {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 640px){
+    .logo {
+        text-align: center; 
+        margin: 0;
+        padding: 0;
+    }
+    .network_hader {text-align: center;}
+    .compte {text-align: center !important;}
+    .contact {text-align: center;}
+    .upload_memory a {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 480px){
+    .pub_site {display: none;}
+    .compte {text-align: center !important;}
+    .upload_memory a {
+        width: 100% !important;
+        text-align: center;
+    }
+    .banner_pub {
+        width: 100%;
+        height: 330px !important;
+        background: url(../images/bg_pub_small.png) top center no-repeat !important;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+    }
+    .top_header {
+        border: none !important;
+    }
+    .contact  {
+        border: none !important;
+        height: 70px !important;
+        border-bottom: 1px solid #ccc !important;
+    }
+    .compte ul li {
+        border-right:none !important;
+        text-align: center !important;
+        display: block !important;
+        margin: 0 !important;
+        border-bottom: 1px solid #ccc;
+    }
+    .compte ul {
+        height: 110px !important;
+        border-bottom: 1px solid #ccc;
+    }
+    /*------------------- POPUP CONNEXION------------*/
+    .bg_login {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.9);
+        position: fixed;
+        z-index: 100;
+        text-align: center;
+        display: none;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .bg_login .bloc_login {
+        width: 30.5rem !important;
+        margin: -80px -14.75rem !important;
+        display: inline-block;
+        position: fixed;
+        text-align: center;
+    }
+    .bg_login .bloc_login h1 {
+        color: #fff;
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-size: 3.75rem;
+        font-family: 'Biryani', sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.875rem;
+        display: none !important;
+    }
+    .bg_login .bloc_login h1 small {
+        padding: 0;
+        margin: 0;
+        display: block;
+        font-size: 0.75rem;
+        font-weight: 200;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    .bg_login .form_login {
+        width: 80% !important;
+        background: #fff !important;
+        margin-top: 1rem;
+        display: inline-block;
+        padding-bottom: 30px !important;
+        padding: 0 0.625rem !important;
+        box-shadow: 2px 1px 4px #000;
+        text-align: center;
+        position: relative;
+    }
+    .form_login h4 {
+        font-size: 0.325rem !important;
+        display: none !important;
+    }
+    .form_login h4 a {
+        text-decoration: underline;
+        color: #4195ca;
+    }
+    .bloc_login .p_close_login {
+        text-align: center;
+        width: 80%;
+        display: inline-block;
+    }
+    .bloc_login .p_close_login .fa-close {
+        font-size: 2rem;
+        font-weight: 100;
+        cursor: pointer;
+        color: #e74c3c;
+        opacity: 0.5;
+        margin-bottom: 0.3rem !important;
+    }
+    .bloc_login .p_close_login .fa-close:hover {
+        opacity: 1;
+    }
+    .bg_login .form_login .span_input {
+        display: inline-block;
+        color: #fff;
+        text-align: center;
+        line-height: 30px !important;
+        font-size: 1.25rem;
+        width: 15%;
+        height: 30px !important;
+        background: #4195ca;
+        vertical-align: middle;
+    }
+    .bg_login .form_login input {
+        display: inline-block;
+        text-align: center;
+        font-size: 14px;
+        width: 85%;
+        height: 30px !important;
+        vertical-align: middle;
+        text-align: left;
+        padding-left: 1.25rem;
+
+    }
+    .bg_login .form_login button {
+        height: 30px !important;
+        font-size: 10px !important;
+        line-height: 30px !important;
+        margin: 0 !important;
+        padding-top: 0 !important;
+        margin-bottom: 1.3rem !important;
+    }
+    .forget {
+        font-size: 10px !important;
+    }
+    .souvenir em {
+        font-size: 10px !important;
+    }
+}
+@media screen and (max-width: 320px){
+    .contact {text-align: center;}
+    .contact ul li {font-size: 0.625rem !important;}
+    .compte {text-align: center !important;}
+    .upload_memory a {
+        width: 100% !important;
+        text-align: center;
+    }
+    .top_header {
+        border: none !important;
+        height: 100px !important;
+    }
+    .compte ul li {
+        border-right:none !important;
+        text-align: center !important;
+        display: block !important;
+        margin: 0 !important;
+        border-bottom: 1px solid #ccc;
+    }
+    .compte ul {
+        height: 110px !important;
+        border-bottom: 1px solid #ccc;
+    }
+    .memory .memory_download {
+        position: relative !important;
+        margin-top: 30px;
+        right: -12px !important;
+    }
+    .memory h4 {font-size: 10px !important;}
+    .memory .memory_category {
+        font-size: 10px !important;
+    }
+    
+    
+    /*------------------- POPUP CONNEXION------------*/
+    .bg_login {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.9);
+        position: fixed;
+        z-index: 100;
+        text-align: center;
+        display: none;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .bg_login .bloc_login {
+        width: 30.5rem !important;
+        margin: -70px -14.75rem !important;
+        display: inline-block;
+        position: fixed;
+        text-align: center;
+    }
+    .bg_login .bloc_login h1 {
+        color: #fff;
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-size: 3.75rem;
+        font-family: 'Biryani', sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.875rem;
+        display: none !important;
+    }
+    .bg_login .bloc_login h1 small {
+        padding: 0;
+        margin: 0;
+        display: block;
+        font-size: 0.75rem;
+        font-weight: 200;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    .bg_login .form_login {
+        width: 50% !important;
+        background: #fff !important;
+        margin-top: 1rem;
+        display: inline-block;
+        padding: 2.5rem 0.625rem;
+        box-shadow: 2px 1px 4px #000;
+        text-align: center;
+        position: relative;
+    }
+    .form_login h4 {
+        font-size: 0.325rem !important;
+        display: none !important;
+    }
+    .form_login h4 a {
+        text-decoration: underline;
+        color: #4195ca;
+    }
+    .bloc_login .p_close_login {
+        text-align: center;
+        width: 80%;
+        display: inline-block;
+    }
+    .bloc_login .p_close_login .fa-close {
+        font-size: 2rem;
+        font-weight: 100;
+        cursor: pointer;
+        color: #e74c3c;
+        opacity: 0.5;
+        margin-bottom: 2.5rem;
+    }
+    .bloc_login .p_close_login .fa-close:hover {
+        opacity: 1;
+    }
+    .bg_login .form_login .span_input {
+        display: inline-block;
+        color: #fff;
+        text-align: center;
+        line-height: 30px !important;
+        font-size: 1.25rem;
+        width: 15%;
+        height: 30px !important;
+        background: #4195ca;
+        vertical-align: middle;
+    }
+    .bg_login .form_login input {
+        display: inline-block;
+        text-align: center;
+        font-size: 14px;
+        width: 85%;
+        height: 30px !important;
+        vertical-align: middle;
+        text-align: left;
+        padding-left: 1.25rem;
+
+    }
+    .bg_login .form_login button {
+        height: 30px !important;
+        font-size: 10px !important;
+        line-height: 30px !important;
+        margin: 0 !important;
+        padding-top: 0 !important;
+    }
+    .pub_site {display: none;}
+}
